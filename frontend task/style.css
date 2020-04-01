@@ -1,3 +1,16 @@
+
+
 body {
-    
+    background-color:rgba(5, 29, 82, 0.877);
+    text-align: center;
+}
+.logo {
+    padding-top: 2em;
+}
+.hero {
+    text-align: center;
+    margin: 3em;
+    padding: 2em;
+    background-color: white;
+    border-top-left-radius: 25%;
 }
