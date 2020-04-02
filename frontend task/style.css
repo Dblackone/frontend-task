@@ -5,7 +5,6 @@ body {
     background-color:rgba(5, 29, 82, 0.877);
     font-family: 'montserrat', sans-serif;
     margin: 0;
-    padding: 0;
 }
 .top {
     text-align: center;
@@ -43,7 +42,7 @@ body {
     padding: 0 ;
     text-align: center;
 }
-.yo3 {
+.text{
     font-size: 0.6rem;
     padding-top:2em;
 }
@@ -67,4 +66,66 @@ body {
     background-color: rgb(25, 76, 214);
     text-align:center;
     cursor:pointer;
+}
+@media (min-width: 730px) {
+    .hero {
+        background-color: white;
+        border-top-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        border-top-right-radius: 24px;
+        margin: 2em 20em;
+        padding: ;
+        text-align: center;
+    }
+    .form {
+        padding: 0 2em;
+        margin-right: 2em;
+        text-align: left;
+
+    }
+    .form-input {
+        margin-top: 2em;
+    }
+    .text{
+        font-size: 1rem;
+        padding-top:2em;
+        margin-top: 2em;
+    }
+    .input {
+        padding:16px;
+        margin-right: 2em;
+        margin-top: 0.5em;
+        display:block;
+        border:none;
+        width:100%;
+        border-radius: 5px;
+        background-color: rgb(211, 207, 207);
+    }
+    .button{
+        border: none;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        display:inline-block;
+        padding:2em 13em;
+        margin: 2em;
+        font-size: 0.8rem;
+        vertical-align:middle;
+        overflow:hidden;
+        color: white;
+        background-color: rgb(25, 76, 214);
+        text-align:center;
+        cursor:pointer;
+    }
+    .down {
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 0.8rem;
+        margin-bottom: 4em;
+    }
+    .footer {
+        color: white;
+        padding: 2em 0 2em 0;
+    }
+
 }
