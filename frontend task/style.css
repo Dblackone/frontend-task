@@ -2,9 +2,15 @@
 
 
 body {
-    background-color:rgba(5, 29, 82, 0.877);
     font-family: 'montserrat', sans-serif;
     margin: 0;
+    background: rgba(5, 29, 82, 0.877);
+    background-position: 
+        top left,
+        top right,
+        bottom right,
+        bottom left;
+    background-repeat: no-repeat;
 }
 .top {
     text-align: center;
