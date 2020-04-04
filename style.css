@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+body {
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    background: #062863;
+    background-position: 
+        top left,
+        top right,
+        bottom right,
+        bottom left;
+    background-repeat: no-repeat;
+}
+.top {
+    text-align: center;
+}
+.logo {
+    padding-top: 3em;
+}
+.hero {
+    background-color: white;
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+    margin: 2em 0.6em;
+    padding: ;
+    text-align: center;
+}
+.header {
+    color: #062863;
+    font-size: 1.2rem;
+    padding-top: 2em;
+    padding-bottom: 0;
+}
+.text-header {
+    color: gray;
+    font-size: .8rem;
+    padding-top: -.5em;
+}
+.form {
+    padding: 0 2em;
+    margin-right: 2em;
+    text-align: left;
+
+}
+.form-input {
+    margin-top: 2em;
+}
+.text{
+    font-size: .7rem;
+    font-weight: bold;
+    padding-top:2em;
+    margin-top: 2em;
+    color: gray;
+}
+.input {
+    padding:16px;
+    margin-right: 2em;
+    margin-top: 0.5em;
+    display:block;
+    border:none;
+    width:100%;
+    border-radius: 5px;
+    background-color: rgb(229, 244, 253);
+}
+.button{
+    border: none;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display:inline-block;
+    padding:1.5em 7.5em;
+    margin: 2em;
+    font-size: 0.8rem;
+    vertical-align:middle;
+    overflow:hidden;
+    color: white;
+    background-color: rgb(25, 76, 214);
+    text-align:center;
+    cursor:pointer;
+}
+.down {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 4em;
+}
+.footer {
+    color: white;
+    padding-bottom: 1em;
+}
+ul.footer-links {
+    text-align: center;
+}
+
+ul.footer-links li {
+    display: block;
+    padding-top: 1.5em;
+}
+
+ul.footer-links li a {
+    color: white;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+@media (min-width: 730px) {
+    .hero {
+        background-color: white;
+        border-top-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        border-top-right-radius: 24px;
+        margin: 2em 20em;
+        padding: ;
+        text-align: center;
+    }
+    .form {
+        padding: 0 2em;
+        margin-right: 2em;
+        text-align: left;
+
+    }
+    .form-input {
+        margin-top: 2em;
+    }
+    .text{
+        font-size: 1rem;
+        padding-top:2em;
+        margin-top: 2em;
+    }
+    .input {
+        padding:16px;
+        margin-right: 2em;
+        margin-top: 0.5em;
+        display:block;
+        border:none;
+        width:100%;
+        border-radius: 5px;
+        background-color: rgb(229, 244, 253);
+    }
+    .button{
+        border: none;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        display:inline-block;
+        padding:2em 13em;
+        margin: 2em;
+        font-size: 0.8rem;
+        vertical-align:middle;
+        overflow:hidden;
+        color: white;
+        background-color: rgb(25, 76, 214);
+        text-align:center;
+        cursor:pointer;
+    }
+    .down {
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 0.8rem;
+        margin-bottom: 4em;
+    }
+    .footer {
+        color: white;
+        padding-bottom: 1em;
+    }
+    ul.footer-links {
+        text-align: center;
+    }
+    
+    ul.footer-links li {
+        display: block;
+        padding-top: 1.5em;
+    }
+    
+    ul.footer-links li a {
+        color: white;
+        font-size: .9em;
+        text-decoration: none;
+    }
+
+}
